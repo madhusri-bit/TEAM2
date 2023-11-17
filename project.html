@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client's Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: lightsteelblue;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: seashell;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+            padding-top: 5px;
+            font-family: Courier, monospace;
+        }
+        section {
+            padding: 20px;
+        }
+        section img {
+            border-radius: 50%;
+            max-width: 100%;
+            height: auto;
+        }
+        .services-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .service-card {
+            width: 45%;
+            padding: 15px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            background-color: aliceblue;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .co{
+            background-color: grey;
+            display: flex;
+            font-size: larger;
+            flex-direction: row;
+            justify-content: center;
+        }
+        #i{
+            background-color: black;
+            color: white;
+            padding: 5px 0px 5px 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-size: large;
+        }
+        #h{
+            text-decoration: underline;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 35px
+        }
+        #al{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-family:cursive;
+        }
+        .t{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">HOME</a>
+        <a href="#services">SERVICES</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+    <header>
+        <h1>Client's Name</h1>
+        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" width="200" height="200">
+    </header>
+    <section id="home">
+        <h2 id="al">Welcome to my Home page</h2>
+         <article>
+                
+         </article>
+    </section>
+    <section id="services">
+        <h2>Services Offered</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <h3>Content Creator</h3>
+                <hr>
+                <ul>
+                <li><p>Research and identify trends, create compelling content, and distribute it effectivel</p></li>
+                <li><p>Create engaging content that resonates with their target audience.</p></li></ul>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="service-card">
+                <h3>Social Media Marketer</h3>
+                <hr>
+                <ul>
+                <li><p>Create and execute social media campaigns that align with the company’s marketing goals.</p></li>
+                <li><p>Strategic promotion and management of your brand on social media platforms.</p></li></ul>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <div class="co">
+    <section id="contact" >
+        <h2 id="h">Contact Information</h2><br>
+        <div class="t">
+        <p><b>Phone</b> : +91 12345 67890</p>
+        <p><b>Email</b>: client@gmail.com</p>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+   </div>
+     <div id="i">
+        &copy; 2023 Client's Name | All Rights Reserved
+     </div>
+</body>
+</html>
